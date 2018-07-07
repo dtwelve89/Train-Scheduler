@@ -24,13 +24,14 @@
             <div class="col-lg-12">
                 <div class="card card-primary">
                     <div class="card-heading">
-                        <h3 class="card-title"><strong>Train Schedule</strong></h3>
+                        <h3 class="card-title"><strong>Train Schedule (PST)</strong></h3>
                     </div>
                     <div class="card-body">
                         <table class="table table-hover" id='train-schedule'>
                         <thead>
                             <tr>
                             <th>Train Name</th>
+                            <th>Departure</th>
                             <th>Destination</th>
                             <th>Frequency (min)</th>
                             <th>Next Arrival</th>
@@ -52,6 +53,10 @@
                         <div class="form-group row">
                             <label for="train-name-input">Train Name</label>
                             <input class="form-control" id="train-name-input" type="text">
+                        </div>
+                        <div class="form-group row">
+                            <label for="departure-input">Departure</label>
+                            <input class="form-control" id="departure-input" type="text">
                         </div>
                         <div class="form-group row">
                             <label for="destination-input">Destination</label>

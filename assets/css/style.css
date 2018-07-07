@@ -6,8 +6,6 @@ body{
     background-image:url("../images/Winter-Lake.jpg");
     background-repeat:repeat;
     font:normal 16px/1.6em 'Quicksand', sans-serif;
-    display:flex;
-    flex-direction:column;
 }
 
 h1{
@@ -19,18 +17,12 @@ h3{
     padding:15px 15px 0 15px;
 }
 
-.container{
-    margin:auto;
-    overflow:auto;
-    flex:1 0 auto;
-}
-
 #main-header{
     text-align:center;
 }
 
 #main-content{
-    margin:0 310px;
+    margin:0 100px;
 }
 
 #main-footer{
@@ -40,5 +32,4 @@ h3{
     width:100%;
     padding:15px 0;
     margin-top:20px;
-    flex-shrink:0;
 }
