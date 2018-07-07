@@ -64,10 +64,7 @@ database.ref().on("child_added", function(childSnapshot, prevChildKey) {
   console.log(trainTime);
   console.log(trainFrequency);
 
-  // Assumptions
   var tFrequency = trainFrequency;
-
-  // Time is 3:30 AM
   var firstTime = trainTime;
 
   // First Time (pushed back 1 year to make sure it comes before current time)
